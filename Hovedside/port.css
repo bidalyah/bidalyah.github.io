@@ -23,34 +23,10 @@ header h1{
     font-size: 3em;
 }
 
-.intro{
-    margin: 10px;
-    background-color: #ECF0F1;
-    padding: 20px;
-    border: 1px solid #BDC3C7;
-    border-radius: 5px;
-}
-
-.intro  h1{
-    margin-left: 1em;
-}
-
-.intro  p{
-    margin-bottom: 100px;
-}
-
-.intro a{
-    border: solid  0.7px #34495E;
-    border-radius: 2px;
-    color: white;
-    text-decoration: none;
-    background-color: #34495E;
-    padding: 0.5em;
-}
-
 nav{
     display: flex;
     position: sticky;
+    top:0;
     justify-content: center;
     background-color: #34495E;
     padding: 1em;
