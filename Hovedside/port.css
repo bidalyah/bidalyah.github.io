@@ -25,7 +25,7 @@ header h1{
 
 nav{
     display: flex;
-    position: sticky;
+    position: fixed;
     top:0;
     justify-content: center;
     background-color: #34495E;
