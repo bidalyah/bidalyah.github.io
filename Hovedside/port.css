@@ -50,6 +50,7 @@ header h1{
 
 nav{
     display: flex;
+    position: sticky;
     justify-content: center;
     background-color: #34495E;
     padding: 1em;
