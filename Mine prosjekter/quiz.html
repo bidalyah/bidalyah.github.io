@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+  background-color: #ffc8dd;
+  font-family: Georgia, serif;
+}
+#hoved {
+  width: 60%;                 
+  margin: 50px auto;         
+  padding: 40px;	            
+  background-color: #ffafcc; 	 
+  border: 1px solid #cccccc;
+}
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+p {
+  background-color: #bde0fe;
+  padding: 10px;
+}
+#resultat {
+  margin: 20px 0;
+}
+.checkboxradio {
+  min-width: 130px;
+  width: 30%;
+}
+.checkboxradio > label {
+  display: block;
+  margin-bottom: 8px; 
+  padding: 5px;
+  background-color: #e4e4e4;
+  cursor: pointer;
+}
+button {
+  padding: 10px;
+  color: white;
+  text-shadow: 0 -1px 1px #335166;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+  background-color: #5588AA;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  outline: none;
+  cursor: pointer;
+}
+button:active {
+  transform: translate(1px, 1px);
+}
+    </style>
+</head>
+<body>
+    <div id="hoved">
+        <h1> Quiz </h1>
+      
+        <div id="quiz">
+      
+        </div>
+        <div id="resultat"></div>
+      </div>
+</body>
+<script src="quiz.js"></script>
+</html>

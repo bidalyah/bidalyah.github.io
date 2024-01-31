@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: #e1dfd2;
+    font-family: "Cinzel", serif;
+}
+
+header{
+    background-color: #8a8e53;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+header div{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5em 1em;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+header a:hover{
+    background-color: #72795d;
+}
+
+#bildeboks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+@media (orientation:portrait){
+    #bildeboks{
+        grid-template-columns: 1fr;
+    }
+}
+
+#bildeboks img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: #8a8e53;
+    padding: 5em;
+    color: #FFF;
+    text-align: center;
+}

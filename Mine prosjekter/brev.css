@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(christmas-wallpapers.jpg);
+    background-size: cover;
+}
+
+#brevet{
+    display: flex;
+    flex-direction: column;
+    margin:10% 30%;
+    padding-bottom: 20%;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#brev{
+    padding-bottom: 40%;
+    font-size: 2em;
+    width: 80%;
+    margin: auto;
+}
+input{
+    padding-bottom: 40%;
+}
+
+.clickButton{
+    margin-top: 4vh;
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: red;
+    color: #fff;
+    border: none; 
+    cursor: pointer;
+    width: 35%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#score{
+    font-size: 18px;
+}
+
+#output{
+   
+    border-radius: 5px;
+    padding: 1em;
+    margin: 20% 30%;
+}
